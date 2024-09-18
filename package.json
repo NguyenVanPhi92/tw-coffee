@@ -1,0 +1,12 @@
+{
+    "name": "tailwindcss-coffee",
+    "version": "1.0.0",
+    "author": "phinguyen.com",
+    "scripts": {
+        "build:css": "tailwindcss -i ./src/input.css -o ./src/public/output.css --watch",
+        "start:dev": "live-server public"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.12"
+    }
+}
